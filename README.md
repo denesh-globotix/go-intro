@@ -49,7 +49,7 @@ somePointer = &someVariable
 fmt.Println("Printing out the variable pointed to by the pointer", *SomePointer)
 ```
 
-### If, else if, else conditionals 
+### Modifying scoped variables 
 ```go 
 func modifyVariable(var SomePointer *int) {
   *SomePointer += 1
@@ -58,4 +58,27 @@ func modifyVariable(var SomePointer *int) {
 *someVariablePtr := 8
 modifyVariable(someVariablePtr)
 fmt.Println("The new variable is:", someVariablePtr*)
+```
+
+### if, else if and else conditionals
+```go
+if (someCondition == true) {
+  fmt.Println("The condition is true")
+} else if (someCondition == false) {
+  fmt.Println("The condition is false")
+} else {
+  fmt.Println("This a bug. Please report this.)
+}
+```
+
+### Switch statements in Go
+```go
+switch someCondition {
+case true: 
+  fmt.Println("The condition is true")
+case false:
+  fmt.Println("The condition is false")
+default:
+  fmt.Println("This a bug. Please report this.)
+}
 ```
