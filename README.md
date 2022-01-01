@@ -2,7 +2,7 @@
 Foray into Google's Go(lang)
 
 ## Description 
-This package serves as a playground to get started with the Go language. Check out this cool (article)[https://talks.golang.org/2012/splash.article] (sent to me by a friend) for the motivations behind Go
+This package serves as a playground to get started with the Go language. Check out this cool [article](https://talks.golang.org/2012/splash.article) (sent to me by a friend) for the motivations behind Go
 
 ## Syntax of the Go language
 ### Variables in Go
